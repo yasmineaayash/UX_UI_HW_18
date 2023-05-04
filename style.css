@@ -1,0 +1,139 @@
+body { 
+    background-color: #738063;
+}
+.logo {
+    height: 133px;
+    float: right;
+    padding-right: 30px;
+  }
+nav a {
+    font-size: 18px;
+    text-align: left; 
+    color: #DFCFD2;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+/* @font-face {
+    font-family: Montserrat;
+    /* src: url(/Fonts/Montserrat\ \(1\)/static/Montserrat-SemiBold.ttf); */
+
+nav{
+    padding-top: 47px;
+    padding-left: 161px;
+    word-spacing: 55px;
+    font-family: Montserrat;
+}
+
+/* @font-face {
+    font-family: MontMedium;
+
+    /* src: url(/Fonts/Montserrat\ \(1\)/static/Montserrat-Medium.ttf); */
+
+.P1 {
+    display:flex;
+    justify-content: flex-end;
+    text-align: center;
+    color: #DFCFD2;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 173px;
+}
+
+/* @font-face {
+    font-family:Gloria;
+    src: url(/Fonts/Gloria_Hallelujah/GloriaHallelujah-Regular.ttf); */
+
+.P2{
+    text-align: right;
+    color: #DFCFD2;
+    font-family: 'Gloria Hallelujah';
+    font-weight:400;
+    font-size: 35px;
+    margin-bottom: -30px;
+}
+.divider{
+    width: 55%;
+    float: right;
+}
+.button a { 
+    color: black;
+    font-family: 'Gloria Hallelujah';
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 20px;
+    background: #BCC5B2; 
+    width: 200px;
+    height: 60px; 
+}
+.button{
+    text-align: center;  
+}
+
+.myskills{ 
+    display:flex;
+    width: 100%; 
+}
+
+.skill{
+    width: 33%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill img{ 
+    width: 50px;
+    height: auto;
+}
+
+.workgrid{ 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    padding: 0px;
+    gap: 10px;
+}
+
+.project{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #DFCFD2;
+    padding: 0px 50px;
+
+}
+
+.footer ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer ul div{
+    display: flex;
+    align-items: center;
+}
+
+.footer ul img{
+margin-right: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    .workgrid{ 
+        grid-template-columns: 100%;
+    }
+    .myskills{
+        flex-direction: column;
+    }
+  }
