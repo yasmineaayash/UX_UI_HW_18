@@ -22,7 +22,7 @@ nav{
     padding-top: 47px;
     padding-left: 161px;
     word-spacing: 55px;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
 }
 
 /* @font-face {
@@ -51,10 +51,11 @@ nav{
     font-family: 'Gloria Hallelujah';
     font-weight:400;
     font-size: 35px;
-    margin-bottom: -30px;
+    margin-bottom: -40px;
+
 }
 .divider{
-    width: 55%;
+    width: 30%;
     float: right;
 }
 .button a { 
@@ -69,12 +70,16 @@ nav{
     height: 60px; 
 }
 .button{
-    text-align: center;  
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .myskills{ 
     display:flex;
     width: 100%; 
+    padding-top: 300px;
+    padding-bottom: 50px;
 }
 
 .skill{
@@ -83,6 +88,20 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+}
+
+h2{ 
+    font-family: 'Gloria Hallelujah';
+    text-align: center;
+    color: #DFCFD2;
+}
+
+P1{
+    font-family: 'Montserrat';
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
 }
 
 .skill img{ 
@@ -94,8 +113,9 @@ nav{
     display: grid;
     grid-template-columns: 50% 50%;
     width: 100%;
-    padding: 0px;
-    gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    gap: 30px;
 }
 
 .project{ 
@@ -126,14 +146,81 @@ nav{
 margin-right: 16px;
 }
 
+
+
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+        background-color: #738063;
+        align-items: center;
     }
     .workgrid{ 
         grid-template-columns: 100%;
     }
     .myskills{
         flex-direction: column;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding-left: 130px;
     }
-  }
+    nav{
+        padding-left: 0px;
+        text-align: center;
+    }
+    nav a {
+        font-size: 12px;
+        align-items: left;
+        color: #DFCFD2;
+        text-decoration: none;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        word-spacing: 100px;
+        margin-left: 0px;
+    }
+    .footer ul{
+        margin-left: 0px;
+        padding-left: 0px;
+        flex-wrap: wrap;
+
+    }
+    .P1 {
+        display:flex;
+        justify-content: center;
+        color: #DFCFD2;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 14px;
+        margin-top: 173px;
+    }
+
+    .divider {
+        width: 60%;
+        float: right; }
+
+        .P2{
+            text-align: right;
+            color: #DFCFD2;
+            font-family: 'Gloria Hallelujah';
+            font-weight:400;
+            font-size: 26px;
+            margin-bottom: -40px;
+    }
+
+    .skill img{ 
+        width: 30px;
+        height: auto; }
+    
+    .project img{
+        width: 400px;
+        height: auto;
+    }
+    
+    .skill{
+        width: 33%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
