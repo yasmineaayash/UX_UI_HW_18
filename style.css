@@ -146,6 +146,15 @@ P1{
 margin-right: 16px;
 }
 
+.P3 {
+    text-align: right;
+    color: #DFCFD2;
+    font-family: 'Gloria Hallelujah';
+    font-weight: 30px;
+    font-size: 14px;
+    margin-bottom: -40px;
+
+}
 
 
 @media only screen and (max-width: 600px) {
